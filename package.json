@@ -25,10 +25,10 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^10.15.0"
+    "@mendix/pluggable-widgets-tools": "^10.21.2"
   },
   "dependencies": {
-    "classnames": "^2.2.6"
+    "react-json-view-lite": "^2.4.2"
   },
   "resolutions": {
     "react": "^18.2.0",

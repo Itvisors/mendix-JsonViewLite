@@ -5,12 +5,24 @@
         xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
     <name>Json View Lite</name>
     <description>JSON View Lite Widget</description>
-    <icon/>
     <properties>
         <propertyGroup caption="General">
-            <property key="sampleText" type="string" required="false">
-                <caption>Default value</caption>
-                <description>Sample text input</description>
+            <property key="jsonAttr" type="attribute">
+                <caption>JSON attribute</caption>
+                <description></description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="expandAll" type="expression" required="false" defaultValue="false">
+                <caption>Expand all</caption>
+                <description></description>
+                <returnType type="Boolean" />
+            </property>
+            <property key="useDarkStyles" type="expression" required="false" defaultValue="false">
+                <caption>Use dark styles</caption>
+                <description></description>
+                <returnType type="Boolean" />
             </property>
         </propertyGroup>
     </properties>
