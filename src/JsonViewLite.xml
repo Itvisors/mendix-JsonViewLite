@@ -7,14 +7,14 @@
     <description>JSON View Lite Widget</description>
     <properties>
         <propertyGroup caption="General">
-            <property key="jsonAttr" type="attribute">
+            <property key="jsonAttr" type="attribute" setLabel="true"> 
                 <caption>JSON attribute</caption>
                 <description></description>
                 <attributeTypes>
                     <attributeType name="String"/>
                 </attributeTypes>
             </property>
-            <property key="expandAll" type="expression" required="false" defaultValue="false">
+            <property key="expandAll" type="expression" required="false" defaultValue="true">
                 <caption>Expand all</caption>
                 <description></description>
                 <returnType type="Boolean" />
@@ -24,6 +24,7 @@
                 <description></description>
                 <returnType type="Boolean" />
             </property>
+            <systemProperty key="Label"/>
         </propertyGroup>
     </properties>
 </widget>
