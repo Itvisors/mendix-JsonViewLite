@@ -4,3 +4,8 @@ Place your custom CSS here
 .json-view-lite-widget {
 
 }
+
+.json-view-lite-widget-error {
+    color: red;
+    font-size: 12px;
+}
