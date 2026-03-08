@@ -1,5 +1,4 @@
 /* eslint-disable sort-imports */
-import { createElement } from "react";
 
 import { JsonViewLiteComponent } from "./components/JsonViewLiteComponent";
 import "./ui/JsonViewLite.css";
