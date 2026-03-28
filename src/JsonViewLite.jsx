@@ -1,5 +1,4 @@
 /* eslint-disable sort-imports */
-
 import { JsonViewLiteComponent } from "./components/JsonViewLiteComponent";
 import "./ui/JsonViewLite.css";
 
