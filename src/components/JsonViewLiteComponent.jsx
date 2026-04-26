@@ -1,5 +1,6 @@
 import { JsonView, allExpanded, collapseAllNested, darkStyles, defaultStyles } from "react-json-view-lite";
 
+// eslint-disable-next-line sort-imports
 import "react-json-view-lite/dist/index.css";
 
 export function JsonViewLiteComponent({ jsonData, expandAll, useDarkStyles, widgetName }) {
